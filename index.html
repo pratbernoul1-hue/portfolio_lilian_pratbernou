@@ -11,12 +11,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=final">
 </head>
 
 <body>
   <div class="grain"></div>
-  <header class="nav"><a class="brand" href="#top">LP<span>✦</span></a>
+  <header class="nav"><div class="brand-language"><a class="brand" href="#top">LP<span>✦</span></a><button class="language-toggle" type="button" aria-label="Switch to English" lang="en">FR</button></div>
     <nav><a href="#apropos">Bio</a><a href="#parcours">Parcours</a><a href="#competences">Compétences</a><a
         href="#projets">Projets</a></nav><a class="pill small" href="CV Lilian Pratbernou.pdf" target="_blank">Mon CV
       ↗</a>
@@ -105,6 +105,7 @@
         <p>Mes outils</p>
         <div class="tool-icons">
           <div class="tool" data-name="Illustrator"><img src="img/Illustrator.png" alt="Illustrator"></div>
+          <div class="tool" data-name="InDesign"><img src="img/indesign.png" alt="InDesign"></div>
           <div class="tool" data-name="Photoshop"><img src="img/Photoshop.png" alt="Photoshop"></div>
           <div class="tool" data-name="Figma"><img src="img/Figma.png" alt="Figma"></div>
           <div class="tool" data-name="Canva"><img src="img/Canva.png" alt="Canva"></div>
@@ -135,11 +136,11 @@
       </div>
 
       <div class="project-gallery">
-        <article class="project-tile" data-category="communication" data-project="duralex">
-          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet Duralex">
-            <img src="img/duralex.png" alt="Projet Duralex">
-            <span class="project-arrow">↗</span>
-          </button>
+        <article class="project-tile cover-document" data-category="communication" data-project="duralex">
+          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet Duralex"><span
+              class="graphic-card art-glass"><span class="graphic-symbol" aria-hidden="true">◉</span><span
+                class="graphic-title">Duralex</span><span class="graphic-cta"
+                aria-hidden="true">↗</span></span></button>
           <div class="project-meta">
             <div><span>Communication · Audit</span>
               <h3>Duralex</h3>
@@ -147,11 +148,11 @@
           </div>
         </article>
 
-        <article class="project-tile" data-category="communication" data-project="westfest">
-          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet À l’West Fest">
-            <img src="img/a l'west fest 2 copie.jpeg" alt="A l'West Fest">
-            <span class="project-arrow">↗</span>
-          </button>
+        <article class="project-tile cover-document" data-category="communication" data-project="westfest">
+          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet À l’West Fest"><span
+              class="graphic-card art-festival"><span class="graphic-symbol" aria-hidden="true">✳</span><span
+                class="graphic-title">À l’West Fest</span><span class="graphic-cta"
+                aria-hidden="true">↗</span></span></button>
           <div class="project-meta">
             <div><span>Communication digitale</span>
               <h3>À l’West Fest</h3>
@@ -159,11 +160,11 @@
           </div>
         </article>
 
-        <article class="project-tile" data-category="design" data-project="affiche">
-          <button class="project-cover project-open" type="button" aria-label="Découvrir l’affiche À l’West Fest">
-            <img src="img/affiche 2 copie.png" alt="Affiche A l'West Fest">
-            <span class="project-arrow">↗</span>
-          </button>
+        <article class="project-tile cover-document" data-category="design" data-project="affiche">
+          <button class="project-cover project-open" type="button" aria-label="Découvrir l’affiche À l’West Fest"><span
+              class="graphic-card art-poster"><span class="graphic-symbol" aria-hidden="true">✦</span><span
+                class="graphic-title">Affiche festival</span><span class="graphic-cta"
+                aria-hidden="true">↗</span></span></button>
           <div class="project-meta">
             <div><span>Création graphique</span>
               <h3>Affiche festival</h3>
@@ -171,11 +172,11 @@
           </div>
         </article>
 
-        <article class="project-tile" data-category="audiovisuel" data-project="cyber">
-          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet cyberharcèlement">
-            <img src="img/cyberharcelement.png" alt="Court métrage cyberharcèlement">
-            <span class="project-arrow">▶</span>
-          </button>
+        <article class="project-tile cover-document" data-category="audiovisuel" data-project="cyber">
+          <button class="project-cover project-open" type="button"
+            aria-label="Découvrir le projet cyberharcèlement"><span class="graphic-card art-film"><span
+                class="graphic-symbol" aria-hidden="true">↗</span><span class="graphic-title">Le
+                cyberharcèlement</span><span class="graphic-cta" aria-hidden="true">↗</span></span></button>
           <div class="project-meta">
             <div><span>Audiovisuel</span>
               <h3>Le cyberharcèlement</h3>
@@ -183,11 +184,11 @@
           </div>
         </article>
 
-        <article class="project-tile" data-category="web design" data-project="pokemon">
-          <button class="project-cover project-open" type="button" aria-label="Découvrir le site Pokémon">
-            <img src="img/site pokemon.png" alt="Site web Pokémon">
-            <span class="project-arrow">↗</span>
-          </button>
+        <article class="project-tile cover-document" data-category="web design" data-project="pokemon">
+          <button class="project-cover project-open" type="button" aria-label="Découvrir le site Pokémon"><span
+              class="graphic-card art-web"><span class="graphic-symbol" aria-hidden="true">◎</span><span
+                class="graphic-title">Site Pokémon</span><span class="graphic-cta"
+                aria-hidden="true">↗</span></span></button>
           <div class="project-meta">
             <div><span>Web · UI/UX</span>
               <h3>Site Pokémon</h3>
@@ -195,19 +196,95 @@
           </div>
         </article>
 
-        <article class="project-tile" data-category="communication" data-project="bulat">
-          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet Bulat-Pestivien">
-            <img src="img/bulat.png" alt="Projet Bulat Pestivien">
-            <span class="project-arrow">↗</span>
-          </button>
+        <article class="project-tile cover-document" data-category="communication" data-project="bulat">
+          <button class="project-cover project-open" type="button"
+            aria-label="Découvrir le projet Bulat-Pestivien"><span class="graphic-card art-territory"><span
+                class="graphic-symbol" aria-hidden="true">↝</span><span
+                class="graphic-title">Bulat-Pestivien</span><span class="graphic-cta"
+                aria-hidden="true">↗</span></span></button>
           <div class="project-meta">
             <div><span>Gestion de projet</span>
               <h3>Bulat-Pestivien</h3>
             </div><b>06</b>
           </div>
         </article>
-      </div>
-      </article>
+        <article class="project-tile cover-document" data-category="audiovisuel" data-project="balite">
+          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet Balité"><span
+              class="graphic-card art-magic"><span class="graphic-symbol" aria-hidden="true">✧</span><span
+                class="graphic-title">Balité</span><span class="graphic-cta" aria-hidden="true">↗</span></span></button>
+          <div class="project-meta">
+            <div><span>Audiovisuel</span>
+              <h3>Balité</h3>
+            </div><b>07</b>
+          </div>
+        </article>
+        <article class="project-tile cover-document" data-category="web design" data-project="bonbons">
+          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet Les Bon-Bons"><span
+              class="graphic-card art-candy"><span class="graphic-symbol" aria-hidden="true">✳</span><span
+                class="graphic-title">Les Bon-Bons</span><span class="graphic-cta"
+                aria-hidden="true">↗</span></span></button>
+          <div class="project-meta">
+            <div><span>Web · UI/UX</span>
+              <h3>Les Bon-Bons</h3>
+            </div><b>08</b>
+          </div>
+        </article>
+        <article class="project-tile cover-document" data-category="design communication" data-project="depliant">
+          <button class="project-cover project-open" type="button"
+            aria-label="Découvrir le projet Dépliant du BUT MMI"><span class="graphic-card art-print"><span
+                class="graphic-symbol" aria-hidden="true">↗</span><span class="graphic-title">Dépliant du BUT
+                MMI</span><span class="graphic-cta" aria-hidden="true">↗</span></span></button>
+          <div class="project-meta">
+            <div><span>Création graphique</span>
+              <h3>Dépliant du BUT MMI</h3>
+            </div><b>09</b>
+          </div>
+        </article>
+        <article class="project-tile cover-document" data-category="design" data-project="lastel">
+          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet Logo Lastel"><span
+              class="graphic-card art-logo"><span class="graphic-symbol" aria-hidden="true">L</span><span
+                class="graphic-title">Logo Lastel</span><span class="graphic-cta"
+                aria-hidden="true">↗</span></span></button>
+          <div class="project-meta">
+            <div><span>Identité visuelle</span>
+              <h3>Logo Lastel</h3>
+            </div><b>10</b>
+          </div>
+        </article>
+        <article class="project-tile cover-document" data-category="design communication" data-project="rochejagu">
+          <button class="project-cover project-open" type="button"
+            aria-label="Découvrir le projet Le milieu forestier de la Roche-Jagu"><span
+              class="graphic-card art-nature"><span class="graphic-symbol" aria-hidden="true">❋</span><span
+                class="graphic-title">Le milieu forestier de la Roche-Jagu</span><span class="graphic-cta"
+                aria-hidden="true">↗</span></span></button>
+          <div class="project-meta">
+            <div><span>Infographie</span>
+              <h3>Le milieu forestier de la Roche-Jagu</h3>
+            </div><b>11</b>
+          </div>
+        </article>
+        <article class="project-tile cover-document" data-category="web design" data-project="vinyle">
+          <button class="project-cover project-open" type="button" aria-label="Découvrir le projet Le retour du vinyle">
+            <span class="graphic-card art-tech">
+              <span class="graphic-symbol" aria-hidden="true">◎</span>
+
+              <span class="graphic-title">
+                Le retour du vinyle
+              </span>
+
+              <span class="graphic-cta" aria-hidden="true">↗</span>
+            </span>
+          </button>
+
+          <div class="project-meta">
+            <div>
+              <span>Web · Design d’information</span>
+              <h3>Le retour du vinyle</h3>
+            </div>
+
+            <b>12</b>
+          </div>
+        </article>
       </div>
     </section>
     <section class="contact"><span>UN STAGE ? UNE ALTERNANCE ? UN PROJET ?</span>
@@ -222,7 +299,7 @@
     </div>
     <div class="social"><a href="mailto:pratbernoul1@gmail.com">Email</a><a href="tel:+33749987909">Téléphone</a><a
         href="https://www.linkedin.com/in/lilian-pratbernou-6024233a8/" target="_blank">LinkedIn</a><a
-        href="https://www.instagram.com/p_lilian_/" target="_blank">Instagram</a><a
+        href="https://www.instagram.com/p_lilian1/" target="_blank">Instagram</a><a
         href="https://www.tiktok.com/@plilian_1" target="_blank">TikTok</a></div>
     <div class="hidden-assets"><img src="img/logo.png"><img src="img/TikTok.png"><img src="img/Instagram.png"></div>
   </footer>
@@ -251,7 +328,8 @@
 
   <div class="cursor-dot" aria-hidden="true"></div>
   <button class="back-top" type="button" aria-label="Retour en haut">↑</button>
-  <script src="script.js"></script>
+  <script src="translations.js"></script>
+  <script src="script.js?v=bilingual"></script>
 </body>
 
 </html>

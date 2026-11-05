@@ -1370,3 +1370,137 @@ body.modal-open {
         margin-bottom: 20px
     }
 }
+/* Couvertures éditoriales : les créations se découvrent dans les fiches. */
+.project-tile.cover-document .project-cover { border: 0; background: transparent; text-align: left; }
+.project-tile .project-cover::after { display: none; }
+.graphic-card {
+    --ink: #302625; --paper: #eadbc9; --accent: #d0b89a;
+    position: absolute; inset: 0; overflow: hidden; display: flex;
+    flex-direction: column; padding: 7%; color: var(--ink); background: var(--paper);
+    font-family: 'DM Sans', sans-serif; isolation: isolate;
+}
+.graphic-card::before {
+    content: ''; position: absolute; width: 75%; aspect-ratio: 1; border-radius: 50%;
+    right: -25%; bottom: -45%; border: 1px solid currentColor; opacity: .14;
+    box-shadow: 0 0 0 28px var(--accent), 0 0 0 29px currentColor; z-index: -1;
+    transition: transform .6s ease;
+}
+.graphic-top { display: flex; justify-content: space-between; font-size: clamp(9px, .8vw, 12px); font-weight: 700; letter-spacing: .14em; }
+.graphic-title { display: block; margin-top: auto; margin-bottom: 8%; font-size: clamp(26px, 3vw, 52px); line-height: .98; letter-spacing: -.045em; font-weight: 700; position: relative; z-index: 1; }
+.graphic-bottom { max-width: 80%; font-size: clamp(8px,.75vw,11px); font-weight: 600; letter-spacing: .08em; line-height: 1.5; }
+.graphic-symbol { position: absolute; top: 12%; right: 6%; font-size: clamp(90px, 14vw, 200px); line-height: 1; color: var(--accent); z-index: -1; transition: transform .5s; }
+.graphic-cta { position: absolute; bottom: 7%; right: 7%; font-size: 25px; }
+.project-cover:hover .graphic-symbol { transform: rotate(12deg) scale(1.06); }
+.project-cover:hover .graphic-card::before { transform: translate(-8px,-8px); }
+.project-cover:focus-visible { outline: 3px solid #ff408b; outline-offset: 5px; }
+.art-glass { --paper: #dbe8ee; --ink: #214954; --accent: #accbd6; }
+.art-festival { --paper: #f1b9c5; --ink: #702a45; --accent: #e28d9f; }
+.art-poster { --paper: #f2d55f; --ink: #47341b; --accent: #ddad35; }
+.art-film { --paper: #252839; --ink: #f1e9f5; --accent: #4b4e71; }
+.art-web { --paper: #ecc7e1; --ink: #613158; --accent: #d899c6; }
+.art-territory { --paper: #dce1bc; --ink: #405039; --accent: #b7c48c; }
+.art-magic { --paper: #dcd1ef; --ink: #4d356b; --accent: #b6a0d5; }
+.art-candy { --paper: #c9e4b5; --ink: #365c31; --accent: #9fcb83; }
+.art-print { --paper: #f4ccae; --ink: #84422e; --accent: #e6a779; }
+.art-logo { --paper: #292722; --ink: #f0e8d7; --accent: #484236; }
+.art-logo .graphic-title { font-family: 'DM Serif Display',serif; font-weight: 400; font-style: italic; font-size: clamp(45px,5vw,80px); }
+.art-logo .graphic-symbol { font-family: 'DM Serif Display',serif; font-style: italic; }
+.art-nature { --paper: #285346; --ink: #e2ecce; --accent: #45715b; }
+.art-tech { --paper: #c9d4f4; --ink: #303d76; --accent: #a4b5e5; }
+@media(max-width: 700px) {
+ .graphic-title { font-size: clamp(30px,8vw,48px); }
+ .graphic-symbol { font-size: 150px; }
+ .graphic-top { font-size: 10px; }
+ .graphic-bottom { font-size: 9px; }
+}
+@media(prefers-reduced-motion: reduce) {
+ .graphic-symbol, .graphic-card::before { transition: none; }
+}
+
+/* Un seul titre par carte ; catégorie et numéro dans la légende. */
+.project-meta h3 { display: none; }
+.graphic-title { margin: auto 0; max-width: 93%; font-size: clamp(26px,2.65vw,46px); line-height: 1.07; text-wrap: balance; }
+.graphic-cta { bottom: 7%; }
+.art-logo .graphic-title { font-size: clamp(42px,5vw,72px); }
+.project-meta { align-items: center; }
+/* Les images conservent leur format et restent visibles en entier. */
+.project-detail-visual { display: flex; align-items: center; justify-content: center; background: #eee8e2; }
+.project-detail-visual img { width: 100%; height: 100%; object-fit: contain; border-radius: 0; box-shadow: none; }
+.project-detail.image-landscape { grid-template-columns: 1fr; }
+.project-detail.image-landscape .project-detail-visual {
+    position: relative; height: auto; max-height: none; padding: 32px 56px;
+    border-radius: 30px 30px 0 0;
+}
+.project-detail.image-landscape .project-detail-visual img {
+    width: auto; max-width: 100%; height: auto; max-height: 65vh;
+}
+.project-detail.image-landscape .project-detail-content { padding-top: 36px; }
+@media(max-width:700px) {
+ .graphic-title { font-size: clamp(28px,7vw,42px); }
+ .project-detail.image-portrait .project-detail-visual { position: relative; height: auto; max-height: none; padding: 24px; }
+ .project-detail.image-portrait .project-detail-visual img { height: auto; max-height: 75vh; width: auto; max-width: 100%; }
+ .project-detail.image-landscape .project-detail-visual { padding: 25px; }
+}
+
+/* Portrait : la colonne suit les proportions réelles du document. */
+.project-detail.image-portrait .project-detail-visual {
+    padding: 0;
+    height: auto;
+    max-height: none;
+    min-height: 0;
+    align-self: start;
+    overflow: hidden;
+    background: transparent;
+}
+.project-detail.image-portrait .project-detail-visual img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    border-radius: 0;
+    object-fit: contain;
+}
+
+/* La fiche suit la hauteur de son contenu, sans minimum artificiel. */
+.project-detail { min-height: 0; }
+.project-detail.image-portrait .project-detail-visual {
+    position: sticky;
+    top: 0;
+    align-self: start;
+    line-height: 0;
+    border-radius: 30px 0 0 0;
+}
+.project-detail.image-portrait { align-items: start; }
+@media(max-width:850px) {
+    .project-detail.image-portrait .project-detail-visual {
+        position: relative;
+        border-radius: 22px 22px 0 0;
+    }
+}
+
+/* Language control beside the signature. */
+.brand-language { display:flex; align-items:center; gap:12px; flex-shrink:0; }
+.language-toggle { font:600 12px "DM Sans",sans-serif; letter-spacing:.04em; color:inherit; border:1px solid currentColor; border-radius:999px; background:transparent; padding:7px 10px; cursor:pointer; min-width:39px; }
+.language-toggle:hover { background:#eee6dc; }
+.language-toggle:focus-visible { outline:2px solid currentColor; outline-offset:4px; }
+.project-detail.balite-portrait .project-detail-visual { aspect-ratio:3/4; background:#96364e; display:flex; align-items:center; justify-content:center; }
+.project-detail.balite-portrait .project-detail-visual img { width:100%; height:100%; object-fit:contain; background:#96364e; }
+@media(max-width:600px) { .brand-language {gap:7px;} .language-toggle {padding:6px 8px;} }
+
+/* Balité: original PNG with a circular crop on the portrait background. */
+.project-detail.balite-portrait .project-detail-visual {
+  aspect-ratio: 3 / 4;
+  background: #96364e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-detail.balite-portrait .project-detail-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  background: transparent;
+  clip-path: ellipse(23.64% 43.5% at 50% 50.12%);
+}

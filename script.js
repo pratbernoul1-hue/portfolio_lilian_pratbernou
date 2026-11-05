@@ -401,7 +401,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Organisation"
             ],
 
-            bilan: `J’ai compris le fonctionnement d’un audit de communication numérique et les différentes étapes nécessaires pour analyser une marque. J’ai également mieux compris comment une communication digitale se construit.`,
+            bilan: `J’ai appris à analyser la communication numérique d’une marque. Ce projet a développé mon esprit critique et ma capacité à structurer un audit.`,
 
             tools: [
                 ["Google Docs", "img/Google_Docs.png"],
@@ -438,7 +438,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Travail en équipe"
             ],
 
-            bilan: `Ce projet m’a permis de comprendre comment construire une stratégie de communication digitale complète, de l’audit jusqu’à la recommandation. J’ai également mieux appréhendé la logique d’un plan de communication et la manière de concevoir des actions cohérentes et adaptées à un événement ainsi qu’à ses différents publics.`,
+            bilan: `J’ai appris à construire une stratégie de communication adaptée à un événement et à ses publics. Ce projet m’a aidé à relier les objectifs aux actions proposées.`,
 
             tools: [
                 ["Google Docs", "img/Google_Docs.png"],
@@ -473,7 +473,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Prise de décision"
             ],
 
-            bilan: `J’ai développé une démarche de création graphique en autonomie, de la recherche à la finalisation. J’ai également affirmé mes choix visuels, structuré une direction artistique et conçu une affiche cohérente et lisible pour un événement.`,
+            bilan: `J’ai développé une démarche de création graphique, de la recherche à la finalisation. J’ai appris à affirmer mes choix pour concevoir une affiche cohérente et lisible.`,
 
             tools: [
                 ["Pinterest", "img/Pinterest.png"],
@@ -492,7 +492,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // GRANDE IMAGE affichée dans la fiche projet
             image: "img/cyberharcelement 2.jpg",
 
-            link: "https://youtu.be/UfZKlMR53IY?si=tXJBs7CRhrxyK8AW",
+            link: "img/1B1 equipe8 FR.mp4",
 
             context: `J’ai réalisé ce projet dans le cadre de la production d’un contenu audio et vidéo. Mon objectif était de concevoir un court film de sensibilisation sur le thème du cyberharcèlement, destiné à un public jeune, afin de montrer l’impact réel des violences en ligne. Mon rôle était de faire la gestion du son.`,
 
@@ -511,7 +511,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Organisation"
             ],
 
-            bilan: `J’ai compris les différentes étapes de production d’un contenu audiovisuel, de la préparation au tournage. J’ai également développé mon sens du travail en équipe et appris à utiliser du matériel professionnel pour transmettre un message de sensibilisation.`,
+            bilan: `J’ai découvert les étapes d’une production audiovisuelle et le rôle du son dans le récit. Ce projet m’a appris à utiliser du matériel professionnel en équipe.`,
 
             tools: [
                 ["DaVinci Resolve", "img/DaVinci_Resolve.png"],
@@ -547,7 +547,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Logique web"
             ],
 
-            bilan: `J’ai compris les étapes de création d’un site web, de l’idée à la mise en forme. J’ai également développé mon autonomie, ma logique de structuration des pages et ma compréhension de l’expérience utilisateur.`,
+            bilan: `J’ai appris à organiser les pages d’un site et à construire un univers visuel cohérent. Ce projet a renforcé mon autonomie et ma compréhension de l’expérience utilisateur.`,
 
             tools: [
                 ["Figma", "img/Figma.png"],
@@ -583,13 +583,220 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Gestion de projet"
             ],
 
-            bilan: `J’ai compris comment gérer un projet de communication numérique de A à Z. J’ai également amélioré mon organisation, mon travail en équipe et ma capacité à concevoir une stratégie de communication cohérente pour valoriser un territoire.`,
+            bilan: `J’ai appris à structurer un projet de communication pour valoriser un territoire. Ce travail a renforcé mon organisation et ma capacité à collaborer.`,
 
             tools: [
                 ["CapCut", "img/CapCut.png"],
                 ["Google Docs", "img/Google_Docs.png"],
                 ["Canva", "img/Canva.png"]
             ]
+        },
+
+
+        bonbons: {
+            "number": "08",
+            "title": "Les Bon-Bons",
+            "subtitle": "CONCEPTION WEB · UI/UX",
+            "category": "Web · UI/UX",
+            "image": "img/bonbons.jpg",
+            "context": "J’ai réalisé ce projet en binôme dans le cadre de la SAÉ 203, consacrée à la conception d’un site web avec une source de données. Notre objectif était de concevoir l’interface d’un site pour Les Bon-Bons, une entreprise de confiseries biologiques utilisant des ingrédients locaux. Nous avons travaillé sur un univers visuel gourmand et accueillant, ainsi que sur les parcours des clients et du gérant.",
+            "missions": [
+                "Analyse de l’entreprise, de son activité et de ses valeurs",
+                "Recherche de plusieurs univers graphiques à travers des planches d’inspiration",
+                "Choix d’une direction visuelle et réalisation de planches de style",
+                "Conception des wireframes pour organiser les contenus et la navigation",
+                "Réalisation des maquettes sur Figma",
+                "Conception des interfaces du catalogue, des fiches produits, du panier et de l’espace de gestion"
+            ],
+            "skills": [
+                "Conception d’interface",
+                "Organisation des contenus",
+                "Cohérence graphique",
+                "Expérience utilisateur",
+                "Travail en binôme"
+            ],
+            "bilan": `J’ai appris à concevoir des interfaces adaptées aux besoins des clients et du gérant. Ce projet m’a permis de relier l’identité de la marque à l’organisation des pages.`,
+            "tools": [
+                [
+                    "Visual Studio Code",
+                    "img/visualcode.png"
+                ],
+                [
+                    "Figma",
+                    "img/Figma.png"
+                ],
+                [
+                    "Google Docs",
+                    "img/Google_Docs.png"
+                ]
+            ]
+        },
+        depliant: {
+            "number": "09",
+            "title": "Dépliant du BUT MMI",
+            "subtitle": "CRÉATION GRAPHIQUE",
+            "category": "Création graphique",
+            "image": "img/depliant.jpg",
+            link: "img/deplient mmi final.pdf",
+
+
+            "context": "J’ai réalisé ce projet dans le cadre de la production graphique. Mon objectif était de concevoir un dépliant présentant le BUT Métiers du Multimédia et de l’Internet de l’IUT de Lannion. Ce support devait permettre de découvrir la formation, ses spécialisations, ses débouchés et les modalités de candidature, dans une présentation claire et attractive.",
+            "missions": [
+                "Organisation des informations sur les différents volets du dépliant",
+                "Création d’un univers graphique coloré aux formes arrondies",
+                "Choix des typographies et hiérarchisation des titres et des textes",
+                "Mise en page des informations sur la formation et les débouchés",
+                "Intégration des photographies, des logos, des coordonnées et d’un QR code",
+                "Harmonisation du recto et du verso pour assurer une continuité visuelle"
+            ],
+            "skills": [
+                "Mise en page",
+                "Hiérarchie de l’information",
+                "Composition graphique",
+                "Typographie",
+                "Communication visuelle"
+            ],
+            "bilan": `J’ai appris à hiérarchiser de nombreuses informations sur les volets d’un dépliant. Ce projet m’a aidé à associer textes et images dans une mise en page cohérente.`,
+            "tools": [
+                [
+                    "Pinterest",
+                    "img/Pinterest.png"
+                ],
+                [
+                    "Google Docs",
+                    "img/Google_Docs.png"
+                ],
+                [
+                    "Adobe InDesign",
+                    "img/indesign.png"
+                ]
+            ]
+        },
+        lastel: {
+            "number": "10",
+            "title": "Logo Lastel",
+            "subtitle": "IDENTITÉ VISUELLE",
+            "category": "Identité visuelle",
+            "image": "img/lastel.jpg",
+            "context": "J’ai réalisé ce projet dans le cadre de la ressource R2.08 en production graphique. Mon objectif était de proposer un logo pour l’entreprise Lastel. J’ai conçu une identité typographique sobre, associant une écriture manuscrite fine à la mention « Paris », pour créer une signature visuelle élégante.",
+            "missions": [
+                "Conception d’un logo centré sur le nom de l’entreprise",
+                "Travail sur les formes des lettres et l’équilibre de la composition",
+                "Association du lettrage manuscrit à une typographie plus simple pour la mention « Paris »",
+                "Réalisation d’une version noire sur fond blanc et d’une version blanche sur fond sombre",
+                "Présentation de la proposition finale sur une planche"
+            ],
+            "skills": [
+                "Création de logo",
+                "Typographie",
+                "Composition",
+                "Identité visuelle",
+                "Sens du détail"
+            ],
+            "bilan": `J’ai appris à travailler la typographie et l’équilibre d’un logo. Les deux versions m’ont permis de mieux comprendre le rôle du contraste dans sa lisibilité.`,
+            "tools": [
+                [
+                    "Pinterest",
+                    "img/Pinterest.png"
+                ],
+                [
+                    "Google Docs",
+                    "img/Google_Docs.png"
+                ],
+                [
+                    "Adobe Illustrator",
+                    "img/Illustrator.png"
+                ]
+            ]
+        },
+        rochejagu: {
+            "number": "11",
+            "title": "Le milieu forestier de la Roche-Jagu",
+            "subtitle": "INFOGRAPHIE",
+            "category": "Infographie",
+            "image": "img/rochejagu.jpg",
+            "context": "J’ai réalisé ce projet dans le cadre de la transition écologique et sociale. Mon objectif était de concevoir une infographie sur le milieu forestier du parc départemental de la Roche-Jagu. Ce support présente la biodiversité du site, les fonctions écologiques de la forêt et les menaces auxquelles elle est confrontée.",
+            "missions": [
+                "Synthèse des informations sur le site et son milieu forestier",
+                "Organisation des contenus en rubriques thématiques",
+                "Présentation de la faune, de la flore et des fonctions écologiques de la forêt",
+                "Mise en valeur des menaces et des actions de préservation du domaine",
+                "Intégration de photographies, d’illustrations et d’un schéma explicatif",
+                "Création d’une composition dans des tons verts en lien avec le sujet"
+            ],
+            "skills": [
+                "Synthèse",
+                "Sensibilisation environnementale",
+                "Mise en page",
+                "Hiérarchie de l’information",
+                "Communication visuelle"
+            ],
+            "bilan": `J’ai appris à synthétiser les enjeux de préservation d’un milieu forestier. Ce projet m’a permis de rendre un sujet environnemental accessible grâce aux textes et aux images.`,
+            "tools": [
+                [
+                    "Adobe Photoshop",
+                    "img/Photoshop.png"
+                ],
+                [
+                    "Pinterest",
+                    "img/Pinterest.png"
+                ]
+            ]
+        },
+        vinyle: {
+            number: "12",
+            category: "Web · Design d’information",
+            title: "Le retour du vinyle",
+            subtitle: "PRÉSENTATION WEB INTERACTIVE",
+
+            image: "img/vinyle.svg",
+            link: "https://pratbernoul1-hue.github.io/le-retour-du-vinyle/#/vinyle-centre",
+
+            context: `J’ai réalisé une présentation web interactive consacrée au retour du disque vinyle. Mon objectif était d’expliquer son fonctionnement, sa fabrication et les raisons de son succès face au numérique, à travers un parcours visuel animé.`,
+
+            missions: [
+                "Définition du sujet, de l’angle et des informations à présenter",
+                "Écriture d’un storyboard pour organiser le parcours et les transitions",
+                "Conception d’un univers graphique autour du disque et de ses pochettes",
+                "Intégration de la présentation en HTML et CSS",
+                "Création de visuels en SVG et d’un graphique comparant les ventes de vinyles et de CD",
+                "Mise en place de la navigation et des transitions avec impress.js"
+            ],
+
+            skills: [
+                "Design d’information",
+                "Synthèse",
+                "HTML / CSS",
+                "SVG",
+                "Animation et navigation"
+            ],
+
+            bilan: `J’ai appris à transformer un sujet documentaire en une présentation web interactive. Ce projet m’a permis de travailler la narration visuelle et les transitions pour guider la découverte du contenu.`,
+
+            tools: [
+                ["Visual Studio Code", "img/visualcode.png"],
+                ["Google Docs", "img/Google_Docs.png"]
+            ]
+        },
+
+        balite: {
+            number: "07",
+            category: "Audiovisuel",
+            title: "Balité",
+            subtitle: "PRODUCTION AUDIOVISUELLE",
+            image: "img/balite.png",
+            link: "img/1A1_Balite_Pratbernou_V2_FR.mp4",
+            context: `J’ai réalisé ce projet en groupe dans le cadre de la SAÉ 202 du semestre 2. Notre objectif était de concevoir une publicité pour le batteur Balité, autour du slogan « Avec Balité, vos rêves deviennent réalité ». Le film met en scène Nathalie, une mère débordée dont le quotidien devient plus simple grâce à l’apparition du produit. Mon rôle principal était celui de cadreur.`,
+            missions: [
+                "Participation à l’écriture en proposant des idées pour le scénario",
+                "Recherche des plans et choix des cadrages avec le groupe",
+                "Captation des scènes en tant que caméraman",
+                "Attention portée à la composition des images et aux détails pendant le tournage",
+                "Réalisation de mon montage à partir des images filmées"
+            ],
+            skills: ["Cadrage", "Prise de vue", "Montage vidéo", "Travail en équipe", "Sens du détail"],
+            bilan: `J’ai appris à mieux cadrer les plans et à soigner les détails au tournage. Réaliser mon montage m’a permis de donner forme aux images que j’avais filmées.`,
+            tools: [["Canva", "img/Canva.png"], ["Google Docs", "img/Google_Docs.png"], ["DaVinci Resolve", "img/DaVinci_Resolve.png"]]
         },
 
 
@@ -619,7 +826,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Organisation"
             ],
 
-            bilan: `J’ai compris les étapes de création d’un podcast, de l’écriture à l’organisation d’une émission audio. J’ai également amélioré mon expression orale, appris à structurer un discours et à travailler en équipe sur un projet créatif lié à la culture numérique.`,
+            bilan: `J’ai appris à structurer et à scénariser une émission audio. Ce projet a renforcé mon expression orale et ma capacité à travailler en équipe.`,
 
             tools: [
                 ["Google Docs", "img/Google_Docs.png"]
@@ -675,9 +882,16 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
 
-        function openProject(key) {
+        let currentProject = null;
+        document.addEventListener("portfolio-language-change", () => {
+            if (currentProject && modal.classList.contains("is-open")) openProject(currentProject);
+        });
 
-            const project = projectData[key];
+        function openProject(key) {
+            currentProject = key;
+
+            const original = projectData[key];
+            const project = original && window.portfolioI18n.project(key, original);
 
             if (!project) {
                 console.warn(
@@ -703,8 +917,16 @@ document.addEventListener("DOMContentLoaded", () => {
             dans la grande fiche.
             */
 
-            modalImage.src =
-                project.image;
+            const detail = modal.querySelector(".project-detail");
+            detail.classList.toggle("balite-portrait", key === "balite");
+            detail.classList.remove("image-portrait", "image-landscape");
+            modalImage.onload = () => {
+                const landscape = key !== "balite" && modalImage.naturalWidth >= modalImage.naturalHeight;
+                detail.classList.toggle("image-landscape", landscape);
+                detail.classList.toggle("image-portrait", !landscape);
+            };
+            modalImage.src = project.image;
+            if (modalImage.complete && modalImage.naturalWidth) modalImage.onload();
 
             modalImage.alt =
                 project.title;
@@ -765,6 +987,7 @@ document.addEventListener("DOMContentLoaded", () => {
             `;
 
 
+            modalTools.parentElement.style.display = project.tools.length || project.equipment ? "" : "none";
             modalTools.innerHTML =
                 project.tools
                     .map(([name, src]) => `
@@ -789,6 +1012,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     .join("");
 
 
+            if (project.equipment) {
+                modalTools.parentElement.querySelector("p").textContent = "Matériel de tournage";
+                const equipment = document.createElement("p");
+                equipment.textContent = project.equipment;
+                modalTools.appendChild(equipment);
+            } else {
+                modalTools.parentElement.querySelector("p").textContent = "Outils utilisés";
+            }
+
             if (project.link) {
 
                 modalLink.href =
@@ -805,6 +1037,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
 
+            window.portfolioI18n.translate(modal);
             modal.classList.add("is-open");
 
             modal.setAttribute(
