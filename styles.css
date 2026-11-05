@@ -1504,3 +1504,100 @@ body.modal-open {
   background: transparent;
   clip-path: ellipse(23.64% 43.5% at 50% 50.12%);
 }
+
+/* Responsive layout and consistent, non-emoji project artwork. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: 100px; }
+img, svg { max-width: 100%; }
+button, a { -webkit-tap-highlight-color: transparent; }
+.graphic-symbol svg, .graphic-cta svg { display: block; width: 100%; height: 100%; }
+.graphic-symbol:has(svg) { width: clamp(90px, 14vw, 200px); height: auto; aspect-ratio: 1; }
+.graphic-cta { width: 22px; height: 22px; }
+.project-cover { container-type: inline-size; }
+.graphic-title { overflow-wrap: anywhere; }
+.project-detail-content, .project-meta > div, .about-copy, .edu-row > div { min-width: 0; }
+.project-detail-content { overflow-wrap: anywhere; }
+.project-skill-tags span { max-width: 100%; }
+@media (max-width: 900px) {
+  .nav { height: auto; min-height: 104px; padding: 10px 6vw 8px; flex-wrap: wrap; gap: 8px 12px; }
+  .nav > .pill { margin-left: auto; min-height: 40px; }
+  .nav nav { display: flex; order: 3; width: 100%; gap: 8px 20px; overflow-x: auto; padding: 5px 0 8px; scrollbar-width: none; }
+  .nav nav::-webkit-scrollbar { display: none; }
+  .nav nav a { flex-shrink: 0; font-size: 13px; padding: 5px 0; }
+  .nav nav a:after { bottom: 0; }
+  .language-toggle { min-height: 40px; min-width: 44px; }
+  .hero { min-height: 0; padding-top: 170px; padding-bottom: 64px; }
+  .hero h1 { font-size: clamp(48px, 12vw, 104px); line-height: .95; margin: 30px 0; }
+  .hero h1 em { white-space: nowrap; }
+  .hero h1 i { position: absolute; margin-left: 10px; }
+  .hero-copy { max-width: 620px; }
+  .hero-actions { max-width: 100%; flex-wrap: wrap; gap: 18px; }
+  .status { margin-top: 32px; line-height: 1.6; }
+  .section { padding: 64px 6vw; }
+  .section-head h2, .about h2 { font-size: clamp(38px, 7.5vw, 64px); line-height: 1.05; }
+  .section-head { margin-bottom: 30px; }
+  .about { min-height: 0; gap: 36px; }
+  .portrait-wrap { width: min(100%, 380px); margin-inline: auto; }
+  .about-copy > p { font-size: 17px; line-height: 1.7; }
+  .contact { padding: 72px 6vw; }
+  .contact h2 { font-size: clamp(40px, 8.5vw, 76px); line-height: 1; }
+  .contact > span { display: block; line-height: 1.7; }
+  .project-modal { padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom)); }
+  .project-modal-panel { width: 100%; max-height: 94vh; max-height: 94dvh; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+  .project-detail, .project-detail.image-landscape { grid-template-columns: minmax(0, 1fr); }
+  .project-detail-content { padding: 28px 22px 36px; }
+  .project-detail-content > h2 { font-size: clamp(30px, 7vw, 42px); line-height: 1.1; margin-bottom: 26px; }
+  .project-detail.image-landscape .project-detail-visual { padding: 18px; min-height: 0; border-radius: 22px 22px 0 0; }
+  .project-detail.image-portrait .project-detail-visual { position: relative; border-radius: 22px 22px 0 0; }
+  .project-detail.image-portrait:not(.balite-portrait) .project-detail-visual img { width: auto; max-width: 100%; max-height: 65vh; max-height: 65dvh; }
+  .project-detail.balite-portrait .project-detail-visual { width: 100%; max-height: 65vh; max-height: 65dvh; aspect-ratio: 3 / 4; }
+  .detail-tool { max-width: 100%; }
+  .detail-tool span { white-space: normal; }
+}
+@media (max-width: 620px) {
+  .project-gallery { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .project-cover { aspect-ratio: 16 / 10; border-radius: 18px; }
+  .graphic-card { padding: 7%; }
+  .graphic-title, .art-logo .graphic-title { font-size: clamp(24px, 6.6vw, 36px); font-size: clamp(24px, 7.5cqw, 36px); max-width: 88%; line-height: 1.12; margin: auto 0; }
+  .graphic-symbol, .graphic-symbol:has(svg) { width: 34%; height: auto; aspect-ratio: 1; top: 10%; right: 6%; font-size: 100px; opacity: .8; }
+  .graphic-cta { width: 18px; height: 18px; }
+  .project-meta { padding: 12px 2px 0; gap: 12px; }
+  .project-meta span { font-size: 10px; line-height: 1.5; letter-spacing: .08em; margin: 0; }
+  .project-meta > b { flex-shrink: 0; padding-top: 0; }
+  .project-filters { gap: 8px; margin-bottom: 24px; }
+  .filter { min-height: 44px; padding: 10px 13px; font-size: 12px; }
+  .facts { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .facts strong { font-size: 32px; }
+  .facts span { font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
+  .skill-list > div { grid-template-columns: 25px minmax(0, 1fr); gap: 10px 16px; padding: 22px 0; }
+  .skill-list h3 { font-size: 27px; }
+  .skill-list p { font-size: 14px; line-height: 1.65; }
+  .edu-row h3 { font-size: 27px; line-height: 1.2; }
+  .tool-icons { gap: 10px; }
+  .tool-icons img { width: 46px; height: 46px; }
+  footer { padding: 36px 6vw calc(36px + env(safe-area-inset-bottom)); }
+  .social { gap: 8px 18px; }
+  .social a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; }
+  .back-top { width: 42px; height: 42px; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom)); }
+}
+@media (hover: none) {
+  .project-tile:hover .project-cover img, .project-cover:hover .graphic-symbol, .project-cover:hover .graphic-card::before { transform: none; }
+}
+@media (max-width: 900px) {
+  .hero .blob { z-index: 0; opacity: .22; pointer-events: none; }
+  .hero > :not(.blob) { position: relative; z-index: 1; }
+  .hero .blob-b { bottom: 0; }
+}
+
+/* Keep the full name and every hero link readable on narrow screens. */
+.hero { isolation: isolate; }
+.hero .blob { z-index: -1; pointer-events: none; }
+@media (max-width: 900px) {
+  .hero h1 { width: 100%; max-width: 100%; font-size: clamp(36px, 11.5vw, 100px); line-height: 1.04; letter-spacing: -.045em; }
+  .hero h1 em { display: inline-block; max-width: 100%; white-space: nowrap; padding-right: .08em; }
+  .hero h1 i { font-size: .24em; margin-left: 6px; }
+  .hero .blob { z-index: -1; opacity: .16; }
+  .hero .blob-a { top: 115px; right: -410px; }
+  .hero .blob-b { display: none; }
+  .hero-actions, .hero-copy, .hero .status { position: relative; z-index: 1; }
+  .hero .status { margin-top: 28px; padding-bottom: 4px; }
+}
