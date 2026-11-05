@@ -1601,3 +1601,25 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .hero-actions, .hero-copy, .hero .status { position: relative; z-index: 1; }
   .hero .status { margin-top: 28px; padding-bottom: 4px; }
 }
+
+/* Reset desktop offsets so availability follows the mobile links in flow. */
+@media (max-width: 900px) {
+  .hero .hero-actions {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: 0 0 auto;
+    margin-bottom: 0;
+  }
+  .hero .status {
+    position: static;
+    inset: auto;
+    left: auto;
+    bottom: auto;
+    width: 100%;
+    flex: 0 0 auto;
+    margin: 32px 0 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+}
