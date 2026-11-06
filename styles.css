@@ -1623,3 +1623,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
     line-height: 1.6;
   }
 }
+
+/* Keep the complete word together on the cyberbullying cover. */
+[data-project="cyber"] .graphic-title {
+  max-width:100%; font-size:clamp(16px,6cqw,30px);
+  overflow-wrap:normal; word-break:normal; hyphens:none; text-wrap:initial;
+}
+.art-noskip { --paper:#251523; --ink:#ffa1d2; --accent:#823465; }
+.art-wingrow { --paper:#19264d; --ink:#f7e4b2; --accent:#645e9a; }

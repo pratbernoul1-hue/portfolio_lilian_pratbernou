@@ -1,6 +1,8 @@
 (() => {
 'use strict';
 const pairs = {
+'Projet personnel · Vidéo de concert':'Personal project · Concert video',
+'PROJET PERSONNEL · CAPTATION VIDÉO':'PERSONAL PROJECT · LIVE FILMING',
 'cyberharcèlement':'cyberbullying', 'Bio':'About', 'Parcours':'Education', 'Compétences':'Skills', 'Projets':'Projects', 'Mon CV ↗':'My CV ↗',
 'Découvrir mon profil ↓':'Explore my profile ↓',
 '✦ Recherche stage · Avril à juin 2027 · + alternance à partir de septembre 2027':'✦ Seeking an internship · April–June 2027 · + work-study placement from September 2027',
@@ -33,6 +35,8 @@ const sections = {
 '.contact h2':'Shall we create<br>something <em>cool?</em> ✦'
 };
 const projects = {
+noskip: {"context": "As a personal project, I obtained accreditation to film artists at Noskip Festival in Saint-Brieuc. My goal was to capture their performances and convey the atmosphere of the concerts through video. The festival poster is shown for illustration; my work focuses on filming.", "missions": ["Filming artists performing on stage", "Exploring framing to showcase their performances", "Adapting to the artists’ movements and concert conditions"], "skills": ["Framing", "Camera operation", "Responsiveness", "Independence"], "bilan": "This experience allowed me to practise filming in real festival conditions. I learned to react quickly to capture the moments I found most interesting."},
+wingrow: {"context": "Through accreditation obtained as part of my personal initiative, I filmed artists at Wingrow Festival in Saint-Brieuc. I wanted to document their performances and share my perspective on the event. The festival poster is shown for illustration; my work focuses on filming.", "missions": ["Recording footage during concerts", "Varying shots and angles to show the artists on stage", "Paying attention to gestures, expressions and the energy of performances"], "skills": ["Live filming", "Image composition", "Observation", "Adaptability"], "bilan": "This project helped me develop my eye and become more confident filming concerts. It also encouraged me to continue creating videos in the music scene."},
 duralex: {
 context:'I completed this project as part of a digital communication audit. My goal was to analyse the digital communication of Duralex, an iconic French tempered-glass tableware brand, to assess its brand image, editorial consistency and online user experience.',
 missions:['Analysis of the brand’s context and positioning','Audit of digital communication across the website and social media','Semiotic analysis of visuals, copy and brand storytelling','Study of information architecture and user journeys','Usability audit and competitive benchmarking','Writing a structured, evidence-based audit report'],
